@@ -11,10 +11,10 @@ table {
     width: 60%;
     margin-top: 20px;
     background-color: black;
-    color: gold;
+    color: silver;
 }
 table, th, td {
-    border: 1px solid gold;
+    border: 1px solid silver;
 }
 th, td {
     padding: 8px;
@@ -22,6 +22,7 @@ th, td {
 }
 form {
     width: 50%;
+    margin-bottom: 20px;
 }
 label {
     display: inline-block;
@@ -35,4 +36,37 @@ label {
     <label>Roll No:</label>
     <input type="text" name="rollno"><br><br>
 
-    <label>
+    <label>Name:</label>
+    <input type="text" name="name"><br><br>
+
+    <label>Address:</label>
+    <textarea name="address"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<h2>Student Table</h2>
+<table>
+    <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Jayesh</td>
+        <td>Satara</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Aman</td>
+        <td>Ambarnath</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Vivek</td>
+        <td>Turbe</td>
+    </tr>
+</table>
+</body>
+</html>
